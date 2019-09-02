@@ -1,0 +1,727 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+}
+.login {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #6fb3e0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: #393939;
+  line-height: 1.5;
+}
+.login .loginbox {
+  margin: 115px auto;
+  width: 375px;
+  box-sizing: border-box;
+  padding: 6px;
+  background: #000;
+}
+.login .loginbox .widget-body {
+  background: #fff;
+  width: 100%;
+}
+.login .loginbox .widget-body .widget-main {
+  padding: 16px 36px;
+  box-sizing: border-box;
+}
+.login .loginbox .widget-body .widget-main h4 {
+  text-align: center;
+  font-size: 27px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  margin-top: 18px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #d5e3ef;
+  color: #478fca !important;
+  font-weight: lighter;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.login .loginbox .widget-body .widget-main .space-6 {
+  box-sizing: border-box;
+  max-height: 1px;
+  min-height: 1px;
+  overflow: hidden;
+  margin: 6px 0 5px;
+}
+.login .loginbox .widget-body .widget-main .login-form {
+  max-width: 291px;
+}
+.login .loginbox .widget-body .widget-main .login-form-button {
+  width: 100%;
+}
+.login .loginbox .widget-body .widget-main .ant-form-item {
+  margin-bottom: 11px;
+}
+.login .loginbox .widget-body .toolbar {
+  box-sizing: border-box;
+  background: #5090c1;
+  border-top: 2px solid #597597;
+  text-align: center;
+  width: 100%;
+  color: white;
+  padding: 9px 0 11px;
+}
+.login .loginbox .widget-body .toolbar a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.25);
+}
+.error-well {
+  box-sizing: border-box;
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: #393939;
+  line-height: 1.5;
+}
+.error-well .error-grey {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: #777;
+  font-size: 34px;
+  line-height: 36px;
+}
+.error-well .error-grey .error-btn {
+  height: 90.4px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  transition: all ease 0.15s;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  border: 0;
+  border-radius: 12px;
+  padding: 12px 0 8px;
+  margin: 2px auto;
+  line-height: 1.7;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    #d55b52 0,
+    #d12723 100%
+  ) !important;
+  background-repeat: repeat-x !important;
+  background: #d3413b !important;
+}
+.error-well .error-grey .error-btn:hover {
+  background: #b52c26 !important;
+  background-image: linear-gradient(
+    to bottom,
+    #c43a30 0,
+    #a51f1c 100%
+  ) !important;
+  background-repeat: repeat-x !important;
+}
+.homeBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+.homeBox .homeHeader {
+  width: 100%;
+}
+.homeBox .homeHeader .logo {
+  width: 190px;
+  height: 50px;
+  float: left;
+}
+.homeBox .homeCont {
+  overflow: auto;
+}
+.homeBox .homeContBeard {
+  width: 100%;
+  padding: 0 12px;
+  height: 40px;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 40;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+.homeBox .homeContspace {
+  padding: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 12px;
+}
+.complaintP1 {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 284.8px;
+  margin-bottom: 15px;
+}
+.complaintP1 p {
+  color: red;
+  margin-right: 20px;
+  width: 16.6666%;
+  text-align: right;
+}
+.complaintP1 .complaintP1Text {
+  width: 588px;
+  height: 585px;
+}
+.complaintP2 {
+  width: 100%;
+  height: 92px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.complaintP2 .complaintP2Cont {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.Problem {
+  width: 100%;
+  padding: 0 12px;
+}
+.Problem .ProblemUp {
+  border: 1px solid #c5d0dc;
+  padding: 16px 12px;
+}
+.Problem .ProblemUp .ProblemUpCont {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+}
+.Problem .ProblemUp .ProblemUpCont p {
+  margin: 0;
+  width: 16.6666%;
+  line-height: 32px;
+  text-align: right;
+  padding-right: 20px;
+  color: red;
+}
+.Problem .ProblemUp .ProblemUpCont .ProblemUpContInput1 {
+  width: 150px;
+}
+.Problem .ProblemUp .ProblemUpCont .ProblemUpContInput2 {
+  width: 592px;
+}
+.Problem .ProblemUp .ProblemUpCont .ProblemUpContBtn {
+  width: 300px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Itemupload {
+  width: 100%;
+  padding-right: 12px;
+}
+.Itemupload .ItemuploadTitle {
+  padding: 5px 0 10px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 0 12px;
+  border-bottom: 1px dotted #e2e2e2;
+}
+.Itemupload .ItemuploadCont {
+  padding: 0 12px;
+}
+.Itemupload .ItemuploadCont .ItemuploadCont2 {
+  padding: 16px 12px;
+  border: 1px solid #c5d0dc;
+}
+.Itemupload .ItemuploadCont .ItemuploadCont2 .ItemuploadContUp {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 15px;
+}
+.Itemupload
+  .ItemuploadCont
+  .ItemuploadCont2
+  .ItemuploadContUp
+  .ItemuploadContUpL {
+  padding-top: 4px;
+  margin-bottom: 4px;
+  text-align: right;
+  color: red;
+  width: 16.6666%;
+  margin-right: 12px;
+}
+.Itemupload
+  .ItemuploadCont
+  .ItemuploadCont2
+  .ItemuploadContUp
+  .ItemuploadContUpM {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.Itemupload
+  .ItemuploadCont
+  .ItemuploadCont2
+  .ItemuploadContUp
+  .ItemuploadContUpR {
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: red;
+  width: 342px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.Itemupload .ItemuploadCont .ItemuploadCont2 .ItemuploadContBtn {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.StuVipTitle {
+  text-align: center;
+  line-height: 36px;
+  padding: 10px;
+  margin: 0 0 12px;
+  border-bottom: 1px dotted #e2e2e2;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: red;
+}
+.StuVipUpCont {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+.StuVipUpCont p {
+  margin: 0;
+  width: 16.6666%;
+  line-height: 32px;
+  text-align: right;
+  padding-right: 20px;
+  color: red;
+}
+.StuVipUpCont .StuVipUpContInput1 {
+  width: 150px;
+}
+.StuVipUpCont .StuVipUpContInput2 {
+  width: 592px;
+}
+.StuVipUpCont .StuVipUpContBtn {
+  width: 300px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Mine {
+  padding: 8px 20px 24px;
+}
+.Mine .MineCont {
+  padding: 0 12px;
+}
+.Mine .MineCont .MineContBtn {
+  text-align: right;
+  padding-right: 26px;
+  padding-bottom: 5px;
+  margin: 0 0 12px;
+  border-bottom: 1px dotted #e2e2e2;
+}
+.Mine .MineCont .MineContMine {
+  overflow: hidden;
+  margin-right: -12px;
+  margin-left: -12px;
+}
+.Mine .MineCont .MineContMine .MineContMineL {
+  padding: 0 12px;
+  float: left;
+}
+.Mine .MineCont .MineContMine .MineContMineL .MineContMineLName {
+  background: #3a87ad;
+  color: #fff;
+  position: relative;
+}
+.Mine .MineCont .MineContMine .MineContMineL .MineContMineLName::after {
+  box-sizing: border-box;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  border: 1px solid transparent;
+  border-right-color: transparent !important;
+  border-color: #3a87ad;
+  right: -7px;
+  border-width: 12px 7px;
+}
+.Mine .MineCont .MineContMine .MineContMineL .MineContMineLName::before {
+  box-sizing: border-box;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  border: 1px solid transparent;
+  border-left-color: transparent !important;
+  border-color: #3a87ad;
+  left: -7px;
+  border-width: 12px 7px;
+}
+.Mine
+  .MineCont
+  .MineContMine
+  .MineContMineL
+  .MineContMineLName
+  .ant-card-meta-avatar {
+  padding: 0 10px;
+}
+.Mine
+  .MineCont
+  .MineContMine
+  .MineContMineL
+  .MineContMineLName
+  .ant-card-meta-title {
+  color: #fff;
+}
+.Mine .MineCont .MineContMine .MineContMineR {
+  padding: 0 12px;
+  float: right;
+  width: 80%;
+}
+.Mine .MineCont .MineContMine .MineContMineR .MineContMineRCont {
+  width: 100%;
+  min-width: 500px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: #393939;
+  line-height: 1.5;
+  margin: 0 12px;
+  border: 1px solid #dcebf7;
+  box-sizing: border-box;
+}
+.Mine
+  .MineCont
+  .MineContMine
+  .MineContMineR
+  .MineContMineRCont
+  .MineContMineRContLR {
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 1.5;
+  display: flex;
+}
+.Mine
+  .MineCont
+  .MineContMine
+  .MineContMineR
+  .MineContMineRCont
+  .MineContMineRContLR
+  p {
+  margin: 0;
+}
+.Mine
+  .MineCont
+  .MineContMine
+  .MineContMineR
+  .MineContMineRCont
+  .MineContMineRContLR
+  .MineContMineRContL {
+  width: 100px;
+  padding: 6px 10px 6px 0;
+  text-align: right;
+  color: #336199;
+  background-color: #edf3f4;
+  border-top: 1px solid #f7fbff;
+}
+.Mine
+  .MineCont
+  .MineContMine
+  .MineContMineR
+  .MineContMineRCont
+  .MineContMineRContLR
+  .MineContMineRContR {
+  flex: 1;
+  padding: 6px 0 6px 12px;
+  border-top: 1px dotted #dcebf7;
+}
+.Mine .MineCont .MineContMassage {
+  padding: 0 12px;
+}
+.Mine .MineCont .MineContMassage .MineContMassageGroup {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.Mine .MineCont .MineContMassage .MineContMassageGroup .MineContMassageGroup1T {
+  width: 50%;
+  padding: 0 12px;
+  font-size: 15px;
+  line-height: 36px;
+  color: #393939;
+  height: 36px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Mine .MineCont .MineContMassage .MineContMassageGroup .MineContMassageGroup1C {
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  background: #edf3f4;
+  border: 1px solid #ddd;
+  color: #393939;
+  margin-bottom: 20px;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup1C
+  p {
+  margin: 0;
+  border: 1px solid #ddd;
+  line-height: 32px;
+  padding: 0 8px;
+  font-weight: bold;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup1C
+  p:first-child {
+  flex: 1;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup1C
+  p:nth-child(2) {
+  width: 88px;
+}
+.Mine .MineCont .MineContMassage .MineContMassageGroup .MineContMassageGroup2C {
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  background: #edf3f4;
+  border: 1px solid #ddd;
+  color: #393939;
+  margin-bottom: 20px;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup2C
+  p {
+  margin: 0;
+  border: 1px solid #ddd;
+  line-height: 32px;
+  padding: 0 8px;
+  font-weight: bold;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup2C
+  p:first-child {
+  width: 100px;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup2C
+  p:nth-child(2) {
+  flex: 1;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup2C
+  p:nth-child(3) {
+  width: 128px;
+}
+.Mine .MineCont .MineContMassage .MineContMassageGroup .MineContMassageGroup3C {
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  background: #edf3f4;
+  border: 1px solid #ddd;
+  color: #393939;
+  margin-bottom: 20px;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup3C
+  p {
+  margin: 0;
+  border: 1px solid #ddd;
+  line-height: 32px;
+  padding: 0 8px;
+  font-weight: bold;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup3C
+  p:first-child {
+  width: 75px;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup3C
+  p:nth-child(2) {
+  flex: 1;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup3C
+  p:nth-child(3) {
+  width: 280px;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup3C1 {
+  margin: 0;
+}
+.Mine
+  .MineCont
+  .MineContMassage
+  .MineContMassageGroup
+  .MineContMassageGroup3C2 {
+  background: #fff;
+}
+.MoneyDetail {
+  padding: 8px 20px 24px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: #393939;
+  line-height: 1.5;
+}
+.MoneyDetail table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0 !important;
+}
+.MoneyDetail table tr {
+  box-sizing: border-box;
+  color: #707070;
+  font-weight: normal;
+  background: #f2f2f2;
+  background-image: linear-gradient(to bottom, #f8f8f8 0, #ececec 100%);
+  background-repeat: repeat-x;
+}
+.MoneyDetail table tr td {
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  border-bottom-width: 2px;
+  border-top: 0;
+}
+.Exam {
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
+  font-family: 微软雅黑;
+}
+.Exam .ExamTitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.Exam .ExamTop {
+  margin-top: 10px;
+  height: 33px;
+  position: relative;
+}
+.Exam .ExamScore {
+  position: relative;
+  overflow: hidden;
+}
+.Exam .ExamScore .ExamScoreItem {
+  cursor: pointer;
+  float: left;
+  width: 480px;
+  margin: 30px 0 0 30px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  position: relative;
+}
+.Exam .ExamScore .ExamScoreItem .ExamScoreDefen {
+  position: absolute;
+  top: 55px;
+  right: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #428bca;
+  cursor: pointer;
+}
+.Exam .ExamScore .ExamScoreItem h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Exam .ExamScore .ExamScoreItem p {
+  margin: 0;
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.evaluate {
+  padding: 8px 20px 24px;
+  overflow: auto;
+}
+.evaluate .evaluateHeader {
+  border-bottom: 1px dotted #e2e2e2;
+  margin: 0 0 12px;
+  padding-bottom: 16px;
+}
